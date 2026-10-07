@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>QKCcode — учись программировать офлайн · OuRi Corp</title>
+<meta name="description" content="QKCcode (QKC v2) — чёрно-белая офлайн-школа программирования: полные уроки по HTML и CSS, JavaScript, Python, Lua для Roblox Studio, GDScript для Godot и C# для Unity. Теория, практика с проверкой кода и тесты на движке QKC Engine. Работает без интернета.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="QKCcode — учись программировать офлайн">
+<meta property="og:description" content="Полные уроки: HTML/CSS, JavaScript, Python, Lua (Roblox), GDScript (Godot), C# (Unity). Теория, задания с проверкой кода, тесты на QKC Engine. Офлайн-PWA, ноль зависимостей.">
+<meta property="og:url" content="https://spaj7468-cell.github.io/qkccode/">
+<meta property="og:image" content="https://spaj7468-cell.github.io/qkccode/assets/icon-512.png">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#08080a">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="alternate icon" href="assets/favicon.ico">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="css/style.css">
+<script>
+  /* тема и язык до первой отрисовки */
+  (function () {
+    try {
+      var s = JSON.parse(localStorage.getItem('qkccode.v1') || 'null');
+      var th = (s && s.theme) || localStorage.getItem('ouri-corp-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', th === 'light' ? 'light' : 'dark');
+      if (s && s.motion === false) document.documentElement.setAttribute('data-motion', 'off');
+      document.documentElement.setAttribute('lang', (s && s.lang) === 'en' ? 'en' : 'ru');
+    } catch (e) { /* приватный режим — остаёмся на тёмной */ }
+  })();
+</script>
+</head>
+<body>
+<a class="skip" href="#main" data-i="ui.skip">Перейти к содержимому</a>
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-vig" aria-hidden="true"></div>
+
+<!-- ══════════ шапка ══════════ -->
+<header class="nav">
+  <div class="nav__in">
+    <a class="brand" href="#/" aria-label="QKCcode — в начало">
+      <img src="assets/logo.png" alt="" width="32" height="32">
+      <span>QKCcode<small>learn offline · v2</small></span>
+    </a>
+    <nav class="nav__links" id="navLinks" aria-label="Основная навигация">
+      <a href="#/courses" data-nav="courses" data-i="nav.courses">Курсы</a>
+      <a href="#/playground" data-nav="playground" data-i="nav.play">Песочница</a>
+      <a href="#/engine" data-nav="engine" data-i="nav.engine">Движок</a>
+      <a href="#/progress" data-nav="progress" data-i="nav.progress">Прогресс</a>
+    </nav>
+    <div class="nav__right">
+      <a class="xp-chip" id="xpChip" href="#/progress" title="Опыт и уровень">0 XP</a>
+      <span class="net-dot" id="netDot" title="Статус сети"><i></i><span data-i="ui.online">онлайн</span></span>
+      <button class="icon-btn lang-btn" id="btnLang" title="Язык интерфейса" aria-label="Язык интерфейса">RU</button>
+      <button class="icon-btn" id="btnTheme" title="Переключить тему" aria-label="Переключить тему">
+        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor" stroke="none"/></svg>
+      </button>
+      <button class="icon-btn burger" id="btnBurger" aria-label="Меню" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="19" height="19" stroke="currentColor" stroke-width="1.8" fill="none"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main"><!-- содержимое рендерит js/app.js --></main>
+
+<!-- ══════════ подвал ══════════ -->
+<footer>
+  <div class="foot-in">
+    <div>
+      <h4>QKCcode</h4>
+      <p data-i="foot.made">Сделано на JavaScript вручную: без фреймворков, сборщиков и зависимостей.</p>
+      <p class="mono" style="font-size:.74rem">qkc.runs-on.dev · code.qkc.runs-on.dev
+        <span class="muted">(claim: <a href="https://github.com/zordhalo/runs-on.dev/pull/310" target="_blank" rel="noopener">runs-on.dev#310</a>)</span></p>
+    </div>
+    <div>
+      <h4 data-i="foot.family">Семейство OuRi</h4>
+      <ul>
+        <li><a href="https://spaj7468-cell.github.io/qkc/" target="_blank" rel="noopener" data-i="foot.trainer">QKC — тренажёр</a></li>
+        <li><a href="https://spaj7468-cell.github.io/qkc-engine/" target="_blank" rel="noopener" data-i="foot.engine">QKC Engine — документация</a></li>
+        <li><a href="https://spaj7468-cell.github.io/ouri-corp/" target="_blank" rel="noopener" data-i="foot.corp">OuRi Corp — о компании</a></li>
+        <li><a href="https://github.com/spaj7468-cell/qkccode" target="_blank" rel="noopener" data-i="foot.repo">Исходники QKCcode</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i="nav.courses">Курсы</h4>
+      <ul id="footCourses"></ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span data-i="foot.rights">OuRi Corp · открытый код · MIT</span>
+    <span id="footVer" class="mono">QKCcode v2.0.0 · QKC Engine <span id="footEngVer"></span></span>
+  </div>
+</footer>
+
+<script src="vendor/qkc-engine.js"></script>
+<script src="js/dialects.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/courses/html.js"></script>
+<script src="js/courses/javascript.js"></script>
+<script src="js/courses/python.js"></script>
+<script src="js/courses/lua.js"></script>
+<script src="js/courses/gdscript.js"></script>
+<script src="js/courses/csharp.js"></script>
+<script src="js/courses/qkc.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
