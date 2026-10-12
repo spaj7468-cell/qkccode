@@ -97,6 +97,7 @@ npm test                 # всё вместе
 
 - [QKC — тренажёр](https://spaj7468-cell.github.io/qkc/) — 42 823 школьных вопроса
 - [QKC Engine — документация](https://spaj7468-cell.github.io/qkc-engine/) — движок викторин
+- [Arakul Studio](https://spaj7468-cell.github.io/Arakul/) — браузерное рабочее пространство
 - [OuRi Corp — о компании](https://spaj7468-cell.github.io/ouri-corp/)
 - [QKCcode](https://spaj7468-cell.github.io/qkccode/) — этот сайт
 
