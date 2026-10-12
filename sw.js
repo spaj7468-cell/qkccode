@@ -1,5 +1,5 @@
 /* QKCcode service worker — полный офлайн: кэш всего сайта, network-first с фолбэком. */
-const CACHE = 'qkccode-v2.0.0';
+const CACHE = 'qkccode-v2.0.1';
 const CORE = [
   './', './index.html', './css/style.css',
   './js/app.js', './js/i18n.js', './js/dialects.js',
