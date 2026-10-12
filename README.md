@@ -103,3 +103,15 @@ npm test                 # всё вместе
 ## Лицензия
 
 [MIT](./LICENSE) · OuRi Corp. Бери интерпретатор, движок и контент в свои проекты — ссылка приветствуется.
+
+
+## OuRi ecosystem
+
+QKCcode is connected to the wider OuRi project family:
+- [OuRi Corp — project directory](https://spaj7468-cell.github.io/ouri-corp/)
+- [QKC — knowledge trainer](https://spaj7468-cell.github.io/qkc/)
+- [QKC Engine — quiz engine and API docs](https://spaj7468-cell.github.io/qkc-engine/)
+- [Arakul Studio — browser workspace](https://spaj7468-cell.github.io/Arakul/)
+- [All repositories](https://github.com/spaj7468-cell?tab=repositories)
+
+Projects were created at different times and have different scopes and maturity levels. Their quality and capabilities can differ; a newer project is not automatically better at everything.
