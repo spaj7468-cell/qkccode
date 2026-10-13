@@ -329,6 +329,24 @@
     ]);
     root.appendChild(hero);
 
+    var startHere = h('div', { class: 'wrap' }, [
+      h('section', { class: 'qcc-start', style: 'margin:8px 0 30px;padding:22px;border:1px solid var(--line);border-radius:18px;background:var(--panel)' }, [
+        h('span', { class: 'kicker', text: S.lang === 'en' ? 'START HERE' : 'НАЧНИ ЗДЕСЬ' }),
+        h('h2', { class: 'sec', text: S.lang === 'en' ? 'What can you do in QKCcode?' : 'Что можно сделать в QKCcode?' }),
+        h('p', { class: 'sec-sub', text: S.lang === 'en' ? 'Learn programming step by step, practice in the playground, and track your progress.' : 'Изучай программирование по шагам, пробуй код в песочнице и отслеживай прогресс.' }),
+        h('div', { class: 'hero__cta', style: 'display:flex;gap:10px;flex-wrap:wrap;margin-top:16px' }, [
+          h('a', { class: 'btn', href: '#/courses', text: S.lang === 'en' ? 'Choose a course →' : 'Выбрать курс →' }),
+          h('a', { class: 'btn ghost', href: '#/playground', text: S.lang === 'en' ? 'Try the playground' : 'Попробовать песочницу' }),
+          h('a', { class: 'btn ghost', href: '#/progress', text: S.lang === 'en' ? 'View progress' : 'Посмотреть прогресс' })
+        ]),
+        h('div', { class: 'links-row', style: 'margin-top:14px;display:flex;gap:8px;flex-wrap:wrap' }, [
+          h('span', { class: 'pill', text: 'HTML/CSS · JavaScript · Python · Lua · GDScript · C#' }),
+          h('span', { class: 'pill', text: S.lang === 'en' ? 'Offline after first load' : 'Офлайн после первой загрузки' })
+        ])
+      ])
+    ]);
+    root.appendChild(startHere);
+
     var courses = h('div', { class: 'wrap' }, [
       h('section', { id: 'courses-sec' }, [
         h('h2', { class: 'sec reveal', text: t('home.coursesT') }),
