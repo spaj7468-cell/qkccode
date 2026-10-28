@@ -1,7 +1,7 @@
 # QKCcode — учись программировать офлайн
 
-**QKCcode (QKC v2)** — чёрно-белая офлайн-школа программирования от [OuRi Corp](https://spaj7468-cell.github.io/ouri-corp/).
-В отличие от [тренажёра QKC](https://spaj7468-cell.github.io/qkc/) (короткие тесты на проверку знаний), здесь **полное обучение**:
+**QKCcode (QKC v2)** — чёрно-белая офлайн-школа программирования от [OuRi Corp](https://corp.qkc.runs-on.dev/).
+В отличие от [тренажёра QKC](https://qkc.runs-on.dev/) (короткие тесты на проверку знаний), здесь **полное обучение**:
 теория → запускаемый пример → практическое задание с проверкой кода → тест.
 
 [![lessons](https://img.shields.io/badge/lessons-39-black)](#курсы)
@@ -9,7 +9,7 @@
 [![deps](https://img.shields.io/badge/dependencies-0-black)](#как-это-работает)
 [![license](https://img.shields.io/badge/license-MIT-black)](./LICENSE)
 
-**Живой сайт:** https://spaj7468-cell.github.io/qkccode/
+**Живой сайт:** https://code.qkc.runs-on.dev/
 Домен `code.qkc.runs-on.dev` заработает после merge заявки
 [zordhalo/runs-on.dev#310](https://github.com/zordhalo/runs-on.dev/pull/310).
 
@@ -95,11 +95,11 @@ npm test                 # всё вместе
 
 ## Семейство OuRi
 
-- [QKC — тренажёр](https://spaj7468-cell.github.io/qkc/) — 42 823 школьных вопроса
-- [QKC Engine — документация](https://spaj7468-cell.github.io/qkc-engine/) — движок викторин
+- [QKC — тренажёр](https://qkc.runs-on.dev/) — 42 823 школьных вопроса
+- [QKC Engine — документация](https://engine.qkc.runs-on.dev/) — движок викторин
 - [Arakul Studio](https://spaj7468-cell.github.io/Arakul/) — браузерное рабочее пространство
-- [OuRi Corp — о компании](https://spaj7468-cell.github.io/ouri-corp/)
-- [QKCcode](https://spaj7468-cell.github.io/qkccode/) — этот сайт
+- [OuRi Corp — о компании](https://corp.qkc.runs-on.dev/)
+- [QKCcode](https://code.qkc.runs-on.dev/) — этот сайт
 
 ## Лицензия
 
@@ -109,9 +109,9 @@ npm test                 # всё вместе
 ## OuRi ecosystem
 
 QKCcode is connected to the wider OuRi project family:
-- [OuRi Corp — project directory](https://spaj7468-cell.github.io/ouri-corp/)
-- [QKC — knowledge trainer](https://spaj7468-cell.github.io/qkc/)
-- [QKC Engine — quiz engine and API docs](https://spaj7468-cell.github.io/qkc-engine/)
+- [OuRi Corp — project directory](https://corp.qkc.runs-on.dev/)
+- [QKC — knowledge trainer](https://qkc.runs-on.dev/)
+- [QKC Engine — quiz engine and API docs](https://engine.qkc.runs-on.dev/)
 - [Arakul Studio — browser workspace](https://spaj7468-cell.github.io/Arakul/)
 - [All repositories](https://github.com/spaj7468-cell?tab=repositories)
 
