@@ -18,7 +18,7 @@ const tick = () => new Promise(r => setTimeout(r, 90));
 async function boot() {
   const html = read('index.html');
   const dom = new JSDOM(html, {
-    url: 'https://spaj7468-cell.github.io/qkccode/index.html',
+    url: 'https://code.qkc.runs-on.dev/index.html',
     runScripts: 'outside-only',
     pretendToBeVisual: true,
     resources: undefined
@@ -331,7 +331,7 @@ const run = async () => {
 async function bootSame(storeJson) {
   const html = read('index.html');
   const dom = new JSDOM(html, {
-    url: 'https://spaj7468-cell.github.io/qkccode/index.html',
+    url: 'https://code.qkc.runs-on.dev/index.html',
     runScripts: 'outside-only',
     pretendToBeVisual: true
   });
