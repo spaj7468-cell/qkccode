@@ -116,7 +116,7 @@
         goal: 'подключить движок к своему сайту одним тегом script.',
         blocks: [
           ['h', 'Подключение'],
-          ['code', { lang: 'html', langName: 'HTML', noRun: true, code: '<!-- 1. подключить движок -->\n<script src="https://spaj7468-cell.github.io/qkc-engine/engine.js"></script>\n\n<!-- 2. дать ему место на странице -->\n<div id="quiz"></div>\n\n<!-- 3. собрать тест -->\n<script>\n  QKC.init({\n    bank: [\n      { t: "2+2?", ty: "choice", o: ["3","4","5"], c: "4", e: "База.", tp: "math" }\n    ],\n    el: "#quiz",\n    theme: "bw",\n    lang: "ru"\n  });\n</script>' }],
+          ['code', { lang: 'html', langName: 'HTML', noRun: true, code: '<!-- 1. подключить движок -->\n<script src="https://engine.qkc.runs-on.dev/engine.js"></script>\n\n<!-- 2. дать ему место на странице -->\n<div id="quiz"></div>\n\n<!-- 3. собрать тест -->\n<script>\n  QKC.init({\n    bank: [\n      { t: "2+2?", ty: "choice", o: ["3","4","5"], c: "4", e: "База.", tp: "math" }\n    ],\n    el: "#quiz",\n    theme: "bw",\n    lang: "ru"\n  });\n</script>' }],
           ['h', 'Способы установки'],
           ['list', [
             '`<script src="engine.js">` — файл с GitHub Pages или своего хостинга',
