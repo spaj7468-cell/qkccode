@@ -392,7 +392,7 @@
           h('p', { text: t('home.engS') }),
           h('div', { class: 'links-row' }, [
             h('a', { href: '#/engine', text: t('home.engBtn') + ' →' }),
-            h('a', { href: 'https://spaj7468-cell.github.io/qkc-engine/', target: '_blank', rel: 'noopener', html: t('eng.docs') + ' <small>github.io</small>' })
+            h('a', { href: 'https://engine.qkc.runs-on.dev/', target: '_blank', rel: 'noopener', html: t('eng.docs') + ' <small>engine.qkc.runs-on.dev</small>' })
           ])
         ]),
         h('div', { class: 'panel reveal' }, [
@@ -691,11 +691,11 @@
         h('h3', { style: 'margin-bottom:6px', text: t('eng.who') }),
         h('p', { class: 'muted', style: 'margin-bottom:14px', text: t('eng.whoS') }),
         h('div', { class: 'links-row' }, [
-          h('a', { href: 'https://spaj7468-cell.github.io/qkc-engine/', target: '_blank', rel: 'noopener', html: t('eng.docs') + ' <small>зеркало, работает сейчас</small>' }),
+          h('a', { href: 'https://engine.qkc.runs-on.dev/', target: '_blank', rel: 'noopener', html: t('eng.docs') + ' <small>engine.qkc.runs-on.dev</small>' }),
           h('a', { href: 'https://engine.qkc.runs-on.dev', target: '_blank', rel: 'noopener', html: 'engine.qkc.runs-on.dev <small>после merge PR #310</small>' }),
           h('a', { href: 'https://github.com/spaj7468-cell/qkc-engine', target: '_blank', rel: 'noopener', text: t('eng.repo') }),
           h('a', { href: 'https://www.npmjs.com/package/qkc-engine', target: '_blank', rel: 'noopener', text: t('eng.npm') }),
-          h('a', { href: 'https://spaj7468-cell.github.io/qkc/', target: '_blank', rel: 'noopener', text: t('foot.trainer') })
+          h('a', { href: 'https://qkc.runs-on.dev/', target: '_blank', rel: 'noopener', text: t('foot.trainer') })
         ])
       ]),
       h('section', { class: 'panel' }, [
