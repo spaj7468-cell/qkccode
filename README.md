@@ -116,3 +116,10 @@ QKCcode is connected to the wider OuRi project family:
 - [All repositories](https://github.com/spaj7468-cell?tab=repositories)
 
 Projects were created at different times and have different scopes and maturity levels. Their quality and capabilities can differ; a newer project is not automatically better at everything.
+
+## Авторы
+
+| Роль | Автор | Профиль |
+|------|-------|---------|
+| Автор | **telrino** | <https://vk.ru/telrino> |
+| Соавтор | **Бро** | <https://vk.ru/id920684081> |
